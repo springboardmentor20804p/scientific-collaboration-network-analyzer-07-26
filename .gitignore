@@ -2,7 +2,9 @@ node_modules/
 dist/
 build/
 .cache/
-.env*
+.env
+.env.local
+.env.*.local
 .vite/
 vite.config.*.timestamp-*
 *.tsbuildinfo
@@ -19,5 +21,4 @@ __pycache__/
 .pytest_cache/
 .venv/
 venv/
-ENV/
 

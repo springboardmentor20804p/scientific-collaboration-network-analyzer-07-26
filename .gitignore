@@ -16,9 +16,16 @@ logs/
 
 # Python
 __pycache__/
-*.py[cod]
-*$py.class
+*.pyc
+*.pyo
+*.pyd
 .pytest_cache/
 .venv/
 venv/
+env/
+
+# IDE / System
+.vscode/
+.idea/
+.DS_Store
 
